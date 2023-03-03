@@ -1,7 +1,6 @@
 ---
 - name: httpd
   hosts: all
-  become: true
   tasks:
   - name: Install apache packages 
     yum:
